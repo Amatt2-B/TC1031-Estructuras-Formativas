@@ -1,7 +1,5 @@
 #suma Iterativa
 
-Al ser casos de suma, no son problemas tan complicados
-
 **Análisis de complejidad temporal**
 
 el algoritmo recorre un ciclo de n pasos, por lo que su complejidad es O(n*n) y este va creciendo.

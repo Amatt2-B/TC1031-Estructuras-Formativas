@@ -14,6 +14,6 @@ El algoritmo se llama asi mismo n cantidad de veces, por lo que su complejidad e
 
 #suma Directa
 
-**Análisis de complejidad temporal
+**Análisis de complejidad temporal**
 
 El algoritmo realiza una sola operación, por lo que tiene una complejidad constante O(o)

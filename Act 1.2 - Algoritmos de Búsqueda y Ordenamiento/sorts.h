@@ -1,4 +1,4 @@
-#ifndef SORTS_H_ //Por qué _H_?
+#ifndef SORTS_H_
 #define SORTS_H_
 
 #include <iostream>

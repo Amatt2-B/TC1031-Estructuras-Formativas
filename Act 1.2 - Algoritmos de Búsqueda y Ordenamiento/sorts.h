@@ -55,8 +55,6 @@ void Sorts<T>::ordenaBurbuja( std::vector<T> &v){
 }
 
 
-
-
 template <class T>
 
 void Sorts<T>::ordenaMerge(std::vector<T> &v){
@@ -136,12 +134,8 @@ int Sorts<T>::binarysplit(std::vector<T> &v,int val,int low,int high){
   }
 }
 
-
 template <class T>
 int Sorts<T>::busqBinaria(std::vector<T> &v, int val){
   return binarysplit(v,val,0,v.size()-1);
 }
-
-
-
 #endif 

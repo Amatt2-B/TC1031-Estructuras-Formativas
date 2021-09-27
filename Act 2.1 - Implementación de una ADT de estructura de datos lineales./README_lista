@@ -1,0 +1,18 @@
+Complejidades temporales:
+
+insertion
+
+O(n)Para agregarlo siempre recorre el ultimo link
+
+search
+
+O(n) En el peor de los casos no está y habrá recorrido los n elementos de la lista.
+
+update
+
+O(n) Actualiza el valor del ultimo elemento en el peor de los casos. Debe recorrer n pasos
+
+
+deleteAt
+
+O(n)En el peor caso borra el ultimo elemento y tiene que recorrerlo entero

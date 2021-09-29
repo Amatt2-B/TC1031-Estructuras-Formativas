@@ -1,0 +1,17 @@
+Análisis de complejidad (en el peor de los casos)
+
+Insertar un elemento en una lista doblemente enlazada:
+En este trabajo se inserta un nuevo elemento al final de la lista. 
+Al ser esta lista doblemente enlazada, la complejidad de tiempo es 0(1), constante. 
+Esto es gracias al acceso que se tiene a tail, o sea el final de la lista, por lo que con una sola operación, se puede agregar un elemento despues de otrol,
+sin necesidad de recorrerlo como en ejercicios pasados.
+
+Encuentra el elemento en una lista doblemente enlazada y devuelve su posición:
+Complejidad de 0(n), ya que en el peor de los casos se tiene que recorrer la lista entera para encontrar el elemento deseado.
+
+Actualizar un elemento dentro de una lista doblemente enlazada:
+Complejidad de 0(n), porque tambien se tendria que recorrer la lista completa en el peor de los casos, para encontrar la ubicacion del elemento
+
+Eliminar un elemento dentro de una lista doblemente enlazada de datos segun su posición:
+Complejidad de 0(n), ya que primero es localizar el elemento y luego eliminarlo, lo que puede llegar a recorrer la lista completa.
+La unica manera de tener una complejidad constante es eliminar el ultimo o primer elemento de la lista.
